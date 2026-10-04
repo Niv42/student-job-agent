@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# Local SQLite Database & Cache
+jobs.db
+*.db
+*.sqlite3
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & logs
+.pytest_cache/
+*.log
+
+# Scratch / temporary analysis files
+more_res.txt
+res2.txt
+old_result.md
+job_results.md
